@@ -1,0 +1,160 @@
+#include<iostream>
+using namespace std;
+void main_screen(){
+	cout<<"\t OLD NOKIA KEYPAD FORMAT"<<endl;
+		cout<<"\t \n";
+		cout<<"\t PRESS 1 once for '1' , twice for '#' and thrice for '*'\n"<<endl;
+		cout<<"\t PRESS 2 once for 'a' , twice for 'b' and thrice for 'c'\n"<<endl;
+		cout<<"\t PRESS 3 once for 'd' , twice for 'e' and thrice for 'f'\n"<<endl;
+		cout<<"\t PRESS 4 once for 'g' , twice for 'h' and thrice for 'i'\n"<<endl;
+		cout<<"\t PRESS 5 once for 'j' , twice for 'k' and thrice for 'l'\n"<<endl;
+		cout<<"\t PRESS 6 once for 'm' , twice for 'n' and thrice for 'o'\n"<<endl;
+		cout<<"\t PRESS 7 once for 'p' , twice for 'q' thrice for 'r' and four times for 's'\n"<<endl;
+		cout<<"\t PRESS 8 once for 't' , twice for 'u' and thrice for 'v'\n"<<endl;\
+		cout<<"\t PRESS 9 once for 'w' , twice for 'x' thrice for 'y' and four times for 'sz'\n"<<endl;
+		cout<<"\t The format is"<<endl;
+		cout<<"\t\t-   1\t    2\t    3\t\n";
+		cout<<"\t\t-   4\t    5\t    6\n";
+		cout<<"\t\t-   7\t    8\t    9\t\n";
+		cout<<"\t\t-    \t    0\t     \t\n";
+		cout<<"\t\t-----------------------\n";
+	
+		}
+void checkforhit(){
+//	do{
+	printf("Enter what you want to type:");
+	int press;
+	char ch;
+	scanf("%d",&press);
+	switch(press)
+	{
+		case 1:
+			printf("1");
+			break;
+		case 11:
+			printf("#");
+			break;
+		case 111:
+			printf("*");
+			break;
+		case 2:
+			printf("a");
+			break;
+		case 22:
+			printf("b");
+			break;
+		case 222:
+			printf("c");
+			break;
+		case 2222:
+			printf("2");
+			break;
+		case 3:
+			printf("d");
+			break;
+		case 33:
+			printf("e");
+			break;
+		case 333:
+			printf("f");
+			break;
+		case 3333:
+			printf("3");
+			break;
+		case 4:
+			printf("g");
+			break;
+		case 44:
+			printf("h");
+			break;
+		case 444:
+			printf("i");
+			break;
+		case 4444:
+			printf("4");
+			break;
+		case 5:
+			printf("j");
+			break;
+		case 55:
+			printf("k");
+			break;
+		case 555:
+			printf("l");
+			break;
+		case 5555:
+			printf("5");
+			break;
+		case 6:
+			printf("m");
+			break;
+		case 66:
+			printf("n");
+			break;
+		case 666:
+			printf("o");
+			break;
+		case 6666:
+			printf("6");
+			break;	
+		case 7:
+			printf("p");
+		case 77:
+			printf("q");
+			break;
+		case 777:
+			printf("r");
+			break;
+		case 7777:
+			printf("s");
+			break;
+		case 77777:
+			printf("7");
+			break;
+		case 8:
+			printf("t");
+			break;
+		case 88:
+			printf("u");
+			break;
+		case 888:
+			printf("v");
+			break;
+		case 8888:
+			printf("8");
+			break;
+		case 9:
+			printf("w");
+			break;
+		case 99:
+			printf("x");
+			break;
+		case 999:
+			printf("y");
+			break;
+		case 9999:
+			printf("z");
+			break;
+		case 99999:
+			printf("9");
+			break;
+		case 0:
+			printf("0");
+			break;
+		default:
+            cout << "Invalid option. Try again.\n";
+        }
+//        cout << "Do you want to continue? (y/n): ";
+//        cin >> ch;
+//    }
+//	 while(ch=='y');
+//    cout << "\nEnd of program.\n";
+	}
+
+		
+int main()
+{
+	main_screen();
+	checkforhit();
+	return 0;
+}
